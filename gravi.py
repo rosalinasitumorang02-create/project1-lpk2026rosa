@@ -30,5 +30,5 @@ if __name__ == "__main__":
         hasil = hitung_kadar_gravimetri(m_analit, m_sampel, fg)
         print(f"\nHasil: % Kadar = {hasil:.4f}%")
         
-    except ValueError as e:
+    except Value Error as e:
         print(f"Error: {e}. Pastikan input berupa angka yang valid.")
